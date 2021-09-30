@@ -163,10 +163,10 @@
       .h2 1.4  Herramientas     
 
     .row
-      .col-lg-6.mb-4(data-aos="fade-left")
+      .col-lg-6.mb-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1-4-img.png', alt='Imagen decorativa') 
-      .col-lg-6.mb-4(data-aos="fade-right")
+      .col-lg-6.mb-4(data-aos="fade-left")
         p En otro orden de ideas, las aplicaciones informáticas de base de datos y hojas de cálculo aplicado a la gestión de inventarios son las más comunes, como herramientas de control en los diferentes 
           italic retail 
           | o formatos comerciales del mercado.
@@ -193,9 +193,9 @@
       .h2 1.5  Código de barras
 
     .row
-      .col-lg-6.mb-4(data-aos="fade-left")
+      .col-md-6.mb-4(data-aos="fade-right")
         p La tecnología siempre ha traído innovaciones a diferentes campos, en este caso el código de barras es un elemento de gran valor que se usa desde hace muchos años y ha permitido almacenar gran cantidad de datos de un producto, servicio o localización.
-      .col-lg-6.mb-4(data-aos="fade-right")
+      .col-md-6.mb-4(data-aos="fade-left")
         h4 Un código de barras está compuesto por números y barras que identifican un producto y, además, es obligatorio incluirlo en la mayoría de los artículos. 
 
     .row.justify-content-center(data-aos="fade-down")

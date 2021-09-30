@@ -193,7 +193,7 @@
       .col-md-2.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema3-3-ico.svg', alt='Características perceptibles')
       .col-md-10.mb-4(data-aos="fade-left")
-        TabsA.color-acento-contenido
+        TabsD.color-acento-contenido
           .tarjeta.tarjeta--azul.p-4(titulo="<em>Stock</em> no perecedero")
             h4  
               italic Stock 
@@ -273,8 +273,12 @@
 </template>
 
 <script>
+import TabsD from '../components/TabsD'
 export default {
   name: 'Tema3',
+  components: {
+    TabsD,
+  },
   data: () => ({
     // variables de vue
   }),
