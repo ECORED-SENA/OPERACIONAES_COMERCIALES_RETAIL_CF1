@@ -169,7 +169,105 @@
       .col-lg-6.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3-2-img2.png', alt='Imagen decorativa')    
+    
+    Separador
 
+
+    // 3.3
+    #t_3_3.titulo-segundo(data-aos="fade-right")
+      .h2 3.3   <em>Stock</em> de mercancía
+
+    p(data-aos="fade") Se denominan 
+      italic stock 
+      | de una empresa a las mercancías que se encuentran en ella, acumuladas en un lugar determinado, en tránsito o inmersas en el proceso de producción, y cuyo objetivo es su aplicación empresarial en procesos industriales o comerciales.
+    p(data-aos="fade") Se entiende por nivel de 
+      italic stock 
+      | a la cantidad de existencias de un artículo almacenado en un momento dado, muy puntual para los 
+      italic retailers 
+      | en las temporadas de Navidad, madre, padre, escolar, entre otras, dependiendo del calendario comercial.
+    p.mb-4(data-aos="fade") Existen diversas clases de 
+      italic stock 
+      | de mercancía, a saber: 
+
+    .row.mb-4
+      .col-md-2.mb-4(data-aos="fade-right")
+        img(src='@/assets/curso/tema3-3-ico.svg', alt='Características perceptibles')
+      .col-md-10.mb-4(data-aos="fade-left")
+        TabsA.color-acento-contenido
+          .tarjeta.tarjeta--azul.p-4(titulo="<em>Stock</em> no perecedero")
+            h4  
+              italic Stock 
+              | no perecedero
+            p.mb-0 Lo integran productos y material que no se deterioran con el paso del tiempo y que, por tanto, podrán estar almacenados durante mayores plazos sin perder sus propiedades originales.
+          .tarjeta.tarjeta--azul.p-4(titulo="<em>Stock</em> perecedero")
+            h4  
+              italic Stock 
+              | perecedero
+            p.mb-0 Los productos considerados como perecederos son lo que por sus composición o condiciones, pueden sufrir un deterioro rápido y perder sus características originales con el paso del tiempo por elementos externos.
+          .tarjeta.tarjeta--azul.p-4(titulo="<em>Stock</em> con fecha de caducidad")
+            h4  
+              italic Stock 
+              | con fecha de caducidad
+            p.mb-0 Puede incluir también al 
+              italic stock 
+              | perecedero, ya que muchos perecederos cuentan también una fecha limitada para su uso o consumo. Además, incluye aquellos materiales que, aunque no se deterioren con el tiempo, sí cuentan con una fecha límite para su correcta utilización.
+          .tarjeta.tarjeta--azul.p-4(titulo="<em>Stock</em> de ciclo o <em>stock</em> activo")
+            h4  
+              italic Stock 
+              | de ciclo o 
+              italic stock 
+              | activo
+            p.mb-0 El 
+              italic stock 
+              | activo también se denomina 
+              italic stock 
+              | de ciclo, pues hace referencia al número de artículos con los que debe contar una empresa en condiciones normales para satisfacer la demanda de sus consumidores. 
+          .tarjeta.tarjeta--azul.p-4(titulo="<em>Stock</em> mínimo")
+            h4  
+              italic Stock 
+              | mínimo 
+            p.mb-0 El 
+              italic stock 
+              | mínimo es la cantidad básica de artículos que por seguridad se deben disponer en el almacén, para seguir ofreciendo el servicio o producto a los clientes. Consiste en el valor que permite atender la demanda del público, aún en los momentos de mayores ventas.
+          .tarjeta.tarjeta--azul.p-4(titulo="<em>Stock</em> máximo")
+            h4  
+              italic Stock 
+              | máximo
+            p El 
+              italic stock 
+              | máximo es el mayor volumen de existencias que debe presentar el inventario sin afectar negativamente sus costos. 
+            p.mb-0 Se determina periódicamente de acuerdo con el tipo de productos, las ventas y los recursos de almacenamiento disponibles. 
+          .tarjeta.tarjeta--azul.p-4(titulo="<em>Stock</em> de seguridad")
+            h4  
+              italic Stock 
+              | de seguridad
+            p.mb-0 El 
+              italic stock 
+              | de seguridad es el inventario extra que se tiene en el almacén para hacer frente a imprevistos relacionados con cambios en la demanda o retrasos de los proveedores.  
+          .tarjeta.tarjeta--azul.p-4(titulo="<em>Stock</em> en tránsito o en curso")
+            h4  
+              italic Stock 
+              | en tránsito o en curso
+            p.mb-0 Es la mercancía que todavía está presente en la empresa porque está en un proceso de producción o comercialización: embalaje, fabricación, en proceso de entrega.           
+
+    .row.border-acento-contenido.mb-4.p-md-4.p-3
+      .col-lg-7.mb-4.mb-md-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/tema3-3-img3.png', alt='Imagen decorativa') 
+      .col-lg-5.mb-4.mb-md-0(data-aos="fade-left")
+        p La principal función del 
+          italic stock 
+          | es determinar las cantidades de productos que debe tener la empresa en cada momento. De esta forma se cumple el principio logístico básico de disponer en cada momento de los materiales necesarios con el menor coste posible, con varios fines: 
+        ul.lista-ul--color
+          li 
+            i.fas.fa-square
+            | Acercamiento de la mercancía necesaria para la actividad empresarial.
+          li 
+            i.fas.fa-square
+            | Compensación de las diferencias entre las previsiones de ventas y las ventas reales de una empresa. 
+          li 
+            i.fas.fa-square
+            | Control de parte del valor del inmovilizado de la empresa.   
 
 
 </template>
