@@ -1,0 +1,108 @@
+.titulo-principal__numero
+  background-color: #FFF505
+  color: $color-sistema-texto
+.titulo-principal__numero span
+  color: $color-sistema-texto
+.titulo-segundo:after
+  border-left: solid 50px #FFF505
+span.etiqueta
+  font-weight: bold
+italic
+  font-style: italic
+italic-strong
+  font-weight: bold
+  font-style: italic  
+
+.lista-ul--color li > i:first-of-type
+  font-size: 13px
+  margin-top: 1px
+.tarjeta.color-acento-contenido--borde
+  border-radius: 0px  
+  border: solid 3px #5C22C3
+
+.bg-azul
+  background-color: #CDE6FA  
+.bg-morado
+  background-color: #f7eff9  
+.bg-gris
+  background-color: #F6F6F6    
+
+.border-acento-contenido
+  border: 2px solid #5C22C3  
+.border-primario
+  border: 3px solid #64B5F6  
+
+.titulo-azul2 span
+  background-color: #CDE6FA
+  border-radius: 50px
+  padding: 4px 15px
+
+.cajon:before
+  width: 20px
+  height: 20px
+.cajon.color-acento-botones
+  background-color: #FFFCBA
+.cajon.color-primario  
+  background-color: #CDE6FA
+.cajon.color-secundario  
+  background-color: #FBE2FF 
+
+.tabs-a__tab__text
+  text-align: center
+.tabs-a__tab 
+  background-color: #f8f0f9
+
+.tarjeta100 .tarjeta
+  width: 100%
+
+.slyder-a__bullets__item
+  display: none
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #d8ecff
+  border: 1px solid $color-sistema-texto
+  width: 47px
+  height: 47px
+
+
+@media screen and (max-width: 991px)  
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    top: 99%
+
+// TARJETA HOVER TEMA 1.6
+.icono-1-6
+  width: 75px
+  margin: 0 auto
+.titulo-azul
+  background-color: #64B5F6
+  height: 192px
+  position: relative
+.contenido-azul 
+  background-color: #cde6fa
+.titulo-morado
+  background-color: #BA68C8
+  height: 192px
+  position: relative
+.contenido-morado 
+  background-color: #edd9f1 
+.tarjeta-hover  
+  display: block
+.tarjeta-hover .contenido-morado, .tarjeta-hover .contenido-azul
+  opacity: 0
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+.tarjeta-hover:hover .contenido-morado, .tarjeta-hover:hover .contenido-azul
+  opacity: 1  
+
+
+// TARJETA NUMERADA TEMA 3.1
+.tarjeta-numerada 
+  border-radius: 0px
+  margin-left: 0px
+.tarjeta-numerada__numero
+  border-radius: 0px
+  width: 42px
+  height: 42px
+  left: 0
+  top: 0
+  transform: translateX(0%)

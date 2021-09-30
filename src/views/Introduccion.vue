@@ -9,21 +9,19 @@
           i.fas.fa-info
       h1 Introducción
     
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    figure.mb-5(data-aos="fade")
+      img(src="@/assets/curso/banner-intro.png", alt="Introducción")
     
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
+    p.mb-4(data-aos="fade") Bienvenidos al componente formativo 
+      strong Manejo de inventarios en el 
+      italic-strong retail, 
+      | en el cual se abordarán diversas temáticas con aspectos básicos y fundamentales que se deben tener en cuenta cuando se participa en las operaciones comerciales de una sala de ventas. A continuación, se invita a conocer un poco más de este componente formativo:
 
-    figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
-      figcaption Imagen 1. Vacunación
+    .row.justify-content-center.tarjeta.bg-azul.py-5(data-aos="fade-down")
+      .col-md-10
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.mb-0 La llegada de nuevas vacunas al país supone un reto para el talento humano en salud responsable de la vacunación y desarrollar habilidades para ofrecer una orientación oportuna y segura a las personas objeto de la vacuna.
-      br
-      br
-      | En ese orden de ideas, este componente formativo guía al aprendiz hacia la identificación de los aspectos normativos, técnicos y operativos de la vacunación contra COVID19 en Colombia y de las generalidades de la infección por SARS-2 COVID 19.
 
 </template>
 
