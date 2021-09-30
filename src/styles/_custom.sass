@@ -86,10 +86,16 @@ italic-strong
 .bloque-texto-a.color-secundario:before
   background-color: #f7dbfb
 
-
 @media screen and (max-width: 991px)  
   .slyder-a__btn--sigt, .slyder-a__btn--atrs
     top: 99%
+  .bg-figura-1, .bg-figura-2, .bg-figura-3, .bg-figura-4
+    height: 415px !important
+
+@media (min-width: 768px)
+  .figura-1 .col-md-6
+    width: 48%
+
 
 // TARJETA HOVER TEMA 1.6
 .icono-1-6
@@ -153,6 +159,99 @@ italic-strong
   align-content: center
   justify-content: center 
 
+// FIGURA 1 TEMA 2.3
+.bg-figura-1, .bg-figura-2, .bg-figura-3, .bg-figura-4
+  background-color: #EBF6FF
+  border: 4px solid #BA68C8
+  position: relative
+  height: 343px
+.bg-figura-1
+  border-bottom-left-radius: 70px
+  border-top-right-radius: 70px
+.bg-figura-2
+  border-top-left-radius: 70px
+  border-bottom-right-radius: 70px
+.bg-figura-3
+  border-top-left-radius: 70px
+  border-bottom-right-radius: 70px
+.bg-figura-4
+  border-bottom-left-radius: 70px
+  border-top-right-radius: 70px
+.bg-figura-1, .bg-figura-2
+  display: flex
+  align-content: flex-start
+  flex-wrap: wrap  
+.bg-figura-3, .bg-figura-4
+  display: flex
+  align-content: flex-end
+  flex-wrap: wrap
+
+.img-figura-1
+  width: 100px
+  height: 100px
+  right: 0
+  bottom: 0
+  transform: translateX(0%) 
+  display: inline-block
+  position: absolute
+  background-color: #BA68C8
+  border-top-left-radius: 30px
+.img-figura-1 div
+  width: 70px
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+.img-figura-2
+  width: 100px
+  height: 100px
+  left: 0
+  bottom: 0
+  transform: translateX(0%) 
+  display: inline-block
+  position: absolute
+  background-color: #BA68C8
+  border-top-right-radius: 30px
+.img-figura-2 div
+  width: 70px
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)  
+.img-figura-3
+  width: 100px
+  height: 100px
+  right: 0
+  top: 0
+  transform: translateX(0%) 
+  display: inline-block
+  position: absolute
+  background-color: #BA68C8
+  border-bottom-left-radius: 30px
+.img-figura-3 div
+  width: 70px
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)    
+.img-figura-4
+  width: 100px
+  height: 100px
+  left: 0
+  top: 0
+  transform: translateX(0%) 
+  display: inline-block
+  position: absolute
+  background-color: #BA68C8
+  border-bottom-right-radius: 30px
+.img-figura-4 div
+  width: 70px
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)    
+
+
 
 // TARJETA NUMERADA TEMA 3.1
 .tarjeta-numerada 
@@ -165,3 +264,4 @@ italic-strong
   left: 0
   top: 0
   transform: translateX(0%)
+

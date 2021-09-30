@@ -266,8 +266,8 @@
               .bloque-texto-a__texto.p-4
                 p Es un bien material que se puede usar o poseer. A diferencia de otros bienes –como los que se producen para el autoconsumo, por ejemplo–, la fabricación, transformación y distribución de mercancías tiene como finalidades fundamentales:
             .col-lg-4
-              .row.align-items-center
-                .col-md-5
+              .row.align-items-center.justify-content-center
+                .col-md-5.col-6.mb-3.mb-md-0
                   img(src='@/assets/curso/tema2-3-img.svg' alt='Imagen decorativa')
                 .col-md-7
                   ul.lista-ul--color
@@ -297,8 +297,44 @@
 
     p.mb-4(data-aos="fade") Las mercancías o productos pueden ser sólidos, líquidos o gaseosos y se clasifican en: 
 
-
-
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-10
+        .titulo-sexto.color-acento-botones.mb-4
+          p.mb-0
+            strong Figura 1. 
+            | Clasificación mercancías o productos
+        .row.justify-content-center.figura-1
+          .col-md-6.m-2.bg-figura-1.pb-5
+            .img-figura-1
+              .div
+                img(src='@/assets/curso/tema2-3-fig1.svg' alt='Materias primas')
+            .p-5
+              h5 Materias primas
+              p Sustancias, minerales o materiales naturales que no han sido sometidos a un proceso de transformación.
+          
+          .col-md-6.m-2.bg-figura-2.pb-5
+            .img-figura-2
+              .div
+                img(src='@/assets/curso/tema2-3-fig2.svg' alt='Materias primas')
+            .p-5
+              h5 Productos en bruto
+              p Sustancias, minerales o materiales naturales o artificiales que por sus características de volumen o requerimientos específicos necesitarán un acondicionamiento o medio de transporte especializado para su traslado.
+          
+          .col-md-6.m-2.bg-figura-3.pt-5
+            .img-figura-3.pb-2
+              .div
+                img(src='@/assets/curso/tema2-3-fig3.svg' alt='Materias primas')
+            .p-5
+              h5 Semiproductos o productos intermedios
+              p Sustancias o materiales naturales o artificiales que han sido sometidos a un proceso de transformación, estos posteriormente se integrarán dentro de un proceso productivo posterior.
+          
+          .col-md-6.m-2.bg-figura-4.pt-5
+            .img-figura-4
+              .div
+                img(src='@/assets/curso/tema2-3-fig4.svg' alt='Materias primas')
+            .p-5
+              h5 Productos elaborados
+              p Bienes obtenidos mediante un proceso de transformación de materia prima o productos intermedios destinados al consumo final.
 
 
 
@@ -307,8 +343,49 @@
 
     p.mb-4(data-aos="fade-right") Entendemos por normatividad a un conjunto de normas, y las más frecuentes para el manejo de mercancías son:
 
+    .row.mb-4
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2-3-ico.svg' alt='normatividad')
+          .tarjeta.color-acento-contenido--borde
+            .p-4.pt-2
+              h5.text-center Ley 34 de 1989 para el régimen de las aduanas y el Decreto 402 de 2005 que aprueba el Reglamento para el Despacho Expreso de Envíos.
 
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2-3-ico.svg' alt='normatividad')
+          .tarjeta.color-acento-contenido--borde
+            .p-4.pt-2
+              h5.text-center Resolución 4100 del 26 de diciembre de 2004 para el transporte de carga.
 
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2-3-ico.svg' alt='normatividad')
+          .tarjeta.color-acento-contenido--borde
+            .p-4.pt-2
+              h5.text-center Código internacional de mercancías peligrosas.
+
+    .row.justify-content-center(data-aos="fade-down")
+      .col-md-10
+        .row.cajon.color-acento-botones.p-4.mb-4
+          .col-md-2
+            img.px-3(src='@/assets/curso/tema2-3-ico2.svg' alt='Imagen decorativa')
+          .col-md-10
+            p Es importante tener en cuenta en el 
+              italic retail:
+            ul.lista-ul--color.mb-0
+              li.mb-0
+                i.fas.fa-square  
+                | La correcta presentación de los productos que se encuentran en las góndolas. 
+              li.mb-0 
+                i.fas.fa-square  
+                | No utilizar utensilios sucios. 
+              li.mb-0 
+                i.fas.fa-square  
+                | Buena rotación de utensilios o instrumentos. 
+              li.mb-0 
+                i.fas.fa-square  
+                | No recoger del suelo utensilios o instrumentos, aplicando siempre unas buenas prácticas de manufactura.       
 
 
 
