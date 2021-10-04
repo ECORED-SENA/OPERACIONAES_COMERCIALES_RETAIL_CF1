@@ -42,7 +42,8 @@
           .col-md-10.col-8.p-3.bg-gris
             h5 Cumplimiento de pedidos
             p.mb-0 Es el proceso de registrar el inventario de mercancías, pedidos a los proveedores, evitando las roturas de 
-              italic stock, entre otras acciones.
+              italic stock, 
+              | entre otras acciones.
         .row.mb-3
           .col-md-2.col-4.bg-azul.px-md-3
             img.p-md-4.p-1.py-4(src='@/assets/curso/tema1-1-ico3.svg', alt='Almacenamiento')
@@ -103,7 +104,9 @@
             i.fas.fa-square
             p
               strong Continuo: 
-              | cuando se hace de forma constante para obtener el stock en disposición a tiempo real, descontando las salidas que se realicen. 
+              | cuando se hace de forma constante para obtener el 
+              italic stock 
+              | en disposición a tiempo real, descontando las salidas que se realicen. 
 
     p.mb-4(data-aos="fade") Y las clasificaciones más importantes de los inventarios, son:
 

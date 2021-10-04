@@ -15,7 +15,9 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2-img.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Es el proceso de pedido, almacenamiento y uso del inventario, desde las materias primas hasta el producto terminado, o desde el producto terminado hasta la góndola o exhibición en el punto de venta del cliente o retail determinado. 
+            p.mb-0 Es el proceso de pedido, almacenamiento y uso del inventario, desde las materias primas hasta el producto terminado, o desde el producto terminado hasta la góndola o exhibición en el punto de venta del cliente o 
+              italic retail 
+              | determinado. 
 
     p.mb-4(data-aos="fade") La política de inventarios debe establecerse para lograr el cumplimiento de dos objetivos muy importantes y específicos: 
 
@@ -148,7 +150,7 @@
               .tarjeta.tarjeta--azul.p-4(titulo="Conteo continuo de <em>stock</em>")
                 h4 Conteo continuo de 
                   italic stock
-                p.mb-0 Como su nombre indica, se definirá su realización con una periodicidad definida en días o meses, dependiendo de la cantidad.
+                p.mb-0 Este va acompañado de un plan de acción y se realiza de forma continua para el conocimiento del inventario a tiempo real.
               .tarjeta.tarjeta--azul.p-4(titulo="Conteo de precisión")
                 h4 Conteo de precisión
                 p.mb-0 Se realiza al momento de recibir mercancía de los proveedores o al preparar los pedidos para clientes. 
@@ -162,7 +164,9 @@
                   italic stock 
                 p.mb-0 Este entra en funcionamiento cuando el inventario periódico o continúo no se realiza, se realiza un solo proceso para el año en curso.   
 
-      p.mb-4(data-aos="fade") A continuación, se verá un paso a paso en el proceso de conteo en el retail o almacenamiento de la organización:
+      p.mb-4(data-aos="fade") A continuación, se verá un paso a paso en el proceso de conteo en el 
+        italic retail 
+        | o almacenamiento de la organización:
 
       .row.justify-content-center.mb-4(data-aos="fade-down")
         .col-md-10

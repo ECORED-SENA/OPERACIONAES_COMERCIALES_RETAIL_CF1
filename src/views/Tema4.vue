@@ -33,9 +33,7 @@
           italic stock 
           | teniendo presentes distintas variables, como diferentes trámites administrativos, reetiquetado, destrucción y reciclaje.
         .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0 La devolución de pedidos o logística inversa se utiliza para coordinar los movimientos de los productos. Su función principal es recuperar el 
-            italic stock 
-            | teniendo presentes distintas variables, como diferentes trámites administrativos, reetiquetado, destrucción y reciclaje.
+          p.mb-0 El procedimiento de devolución está regulado, según la legislación comercial de cada país, ya que es un procedimiento de gestión tributaria adherido por la declaración que cada organización debe presentar a su sistema tributario.
 
 
     .h4.titulo-azul2.mb-4(data-aos="fade-right") 
@@ -67,8 +65,6 @@
             .p-4.pt-2
               h4.text-center Avería latente
               p.text-center Avería que no se hace aparente.
-
-    p.mb-4(data-aos="fade") Estas averías poseen diferentes características, según como ocurrieron:
 
     .row.border-acento-contenido.mb-5.p-md-4.p-3
       .col-lg-5.mb-4.mb-md-0(data-aos="fade-left")
@@ -121,7 +117,7 @@
             img.px-md-2(src='@/assets/curso/tema4-ico2-2.svg', alt='Imagen decorativa')
           .col-8
             p.mb-0
-              strong 2. Análisis de ventas semanal:
+              strong 2. Análisis de ventas semanal: 
               | en este punto los informes semanales comenzarán a revelar cualquier situación que deba abordarse de manera inmediata con tu proceso de ventas.
 
       .col-lg-6.mb-4(data-aos="fade-left")
