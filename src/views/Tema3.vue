@@ -163,7 +163,7 @@
 
     .row  
       .col-lg-6.mb-4(data-aos="fade-right")
-        p La rotación productos es un indicador que señala el total de veces que el inventario del almacén y el de la góndola requiere ser suministrado con nuevas existencias.
+        p La rotación de productos es un indicador que señala el total de veces que el inventario del almacén y el de la góndola requiere ser suministrado con nuevas existencias.
         p Los productos tienen una constante entrada y salida, con lo que se evitan multitud de pérdidas, como los productos caducados; este procedimiento permite tener en los almacenes con productos frescos y con fecha vigentes en la rotación.
         p Ahora bien, la ausencia del producto se conoce como agotado, y se presenta cuando los artículos de consumo no están en condiciones de venta en ningún lugar del punto o cuando no se dispone de estos en el espacio accesible para el comprador.
       .col-lg-6.mb-4(data-aos="fade-left")

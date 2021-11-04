@@ -174,7 +174,7 @@
           italic retail 
           | o formatos comerciales del mercado.
         p Para la gestión y control de los inventarios existen en el mercado multitud de 
-          italic softwares 
+          italic software 
           | que permiten dicha labor de la manera más eficiente. Evidentemente, dichas aplicaciones son generalmente de pago y producidas por grandes compañías como Microsoft o SAP cuyos costes, en la mayoría de los casos, son imposibles de sufragar para muchas empresas.
 
     .row.justify-content-center(data-aos="fade-down")
@@ -225,7 +225,7 @@
         ul.lista-ul--color
           li 
             i.fas.fa-square
-            | Ayudan en el proceso de inventariar al interior de las empresas de forma fácil y óptima de cada al proceso.
+            | Ayudan en el proceso de inventariar al interior de las empresas de forma fácil y óptima de cada proceso.
           li 
             i.fas.fa-square
             | A la hora de la facturación de cada compra, ayuda a ubicar y contabilizar el mismo dentro de la cuenta sin dar paso al error de una digitalización manual.
@@ -298,7 +298,7 @@
         | para la captura de código de barras
 
     p.mb-4(data-aos="fade") Existen diverso 
-      italic softwares 
+      italic software
       | para la captura de los códigos de barras, algunos de ellos son:    
 
     .row
@@ -345,7 +345,7 @@
             h3.text-white.text-center.mb-0 
               italic TBarCode/X
           .contenido-morado.py-4.p-3   
-            p.text-center.mb-0 Es un completo de 
+            p.text-center.mb-0 Es un complemento de 
               italic software 
               | de código de barras para 
               italic Linux®, UNIX® y Mac OS X. 
