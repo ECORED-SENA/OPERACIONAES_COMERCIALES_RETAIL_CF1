@@ -297,7 +297,7 @@
         italic Software 
         | para la captura de código de barras
 
-    p.mb-4(data-aos="fade") Existen diverso 
+    p.mb-4(data-aos="fade") Existen diversos 
       italic software 
       | para la captura de los códigos de barras, algunos de ellos son:    
 
