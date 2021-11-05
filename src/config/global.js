@@ -191,7 +191,7 @@ export default {
       referencia:
         'Gómez, J. M. (2013). <em>Gestión logística y comercial.</em> McGraw-Hill España.  ',
       link:
-        'https://elibr.bdigital.sena.edu.co/es/ereader/senavirtual/50240?page=13 ',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/50240?page=1 ',
     },
     {
       referencia:
